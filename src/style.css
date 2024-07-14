@@ -1,3 +1,52 @@
 body{
     background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: none;
 }
+
+img{
+    display: flex;
+    flex:1;
+    margin-bottom: 5vh;
+    border: solid black 1px
+}
+
+.content{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Form that submit the request CSS */
+
+#search-form{
+    display: flex;
+    width: fit-content;
+}
+
+input{
+    display: flex;
+    border: solid black 1px;
+    border-right: none;
+    padding: 2px;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+#submit{
+    border: none;
+    position: relative;
+    z-index: 0;
+    border: solid black 1px;
+    right: 20px;
+    cursor: pointer;
+    flex: 1;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
